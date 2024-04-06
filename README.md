@@ -11,3 +11,7 @@
 兼容性未知。
 
 测试通过环境：Redmi k50pro,A13,XposedAPI 100,arm64-v8a.
+
+![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-3.jpg)
+
+![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-4.jpg)
