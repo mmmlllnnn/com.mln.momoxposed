@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="xposed_scope">
+        <!-- 这里填入需要自动勾选的应用的包名 -->
+        <item>com.maimemo.android.momo</item>
+    </string-array>
+</resources>
