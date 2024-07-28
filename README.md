@@ -7,4 +7,3 @@
 
 ![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-3.jpg)
 
-![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-4.jpg)
