@@ -28,13 +28,13 @@ public class momo_xposed implements IXposedHookLoadPackage {
                         XposedBridge.log("get_classLoader => " + classLoader);
 
                         // 替换类加载器进行 hook 对应的方法
-                        Class<?> aClass = XposedHelpers.findClass("com.maimemo.android.momo.d0", classLoader);
-                        XposedBridge.hookAllMethods(aClass, "V", new XC_MethodHook() {
+                        Class<?> aClass = XposedHelpers.findClass("com.maimemo.android.momo.f0", classLoader);
+                        XposedBridge.hookAllMethods(aClass, "d0", new XC_MethodHook() {
                             @Override
                             protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                                 XposedBridge.log("已找到hook的类");
-                                param.setResult(99966); // 将返回值修改为 99966
-                                XposedBridge.log("hook成功，修改单词上限为99966");
+                                param.setResult(9999); // 将返回值修改为 9999
+                                XposedBridge.log("hook成功，修改单词上限为9999");
 
                             }
 
