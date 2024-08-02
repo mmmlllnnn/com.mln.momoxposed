@@ -15,7 +15,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="自用:墨墨背单词5.0.30 修改单词上限" />
+            android:value="自用:墨墨背单词5.3.45 修改单词上限" />
         <meta-data
             android:name="xposedminversion"
             android:value="60" />
