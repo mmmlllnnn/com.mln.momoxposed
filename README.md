@@ -1,17 +1,27 @@
 # 墨墨Xposed
 
-修改墨墨背单词上限，自用
+修改墨墨背单词的单词上限，自用
 
-适配：5.0.30
+检测目标函数特征，理论适配全部版本
 
-因为app有加固，所以只适配了自己手机上的版本。
+### 使用方式：
 
-第一次写xposed插件，些许菜。
+1.第一次打开 app 会自动寻找 hook 函数，并保存在本地
 
-兼容性未知。
+2.弹出已找到 hook 函数的消息后，退出 app
 
-测试通过环境：Redmi k50pro,A13,XposedAPI 100,arm64-v8a.
+3.再次打开即生效
 
-![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-3.jpg)
 
-![](https://cdn.jsdelivr.net/gh/mmmlllnnn/blog-img/16-4.jpg)
+
+测试通过环境：Redmik50pro A13 XposedAPI 100 arm64-v8a
+
+---
+
+原 app 存在加固和混淆，不易适配
+遂手搓特征检测，通过正则表达过滤可疑类，参数为空和返回值类型为 int 过滤可疑函数，逐个调用对比，返回值在600-10000区间得到真实的 hook 目标。
+[](./first-1.png) 
+[](./first-2.png)
+[](./second.png)
+
+
