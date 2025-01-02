@@ -1,4 +1,4 @@
-# 墨墨Xposed
+# 墨墨Xposed ![Downloads](https://img.shields.io/github/downloads/Xposed-Modules-Repo/com.mln.momoxposed/total)
 
 是一个 LSPosed 插件 
 
